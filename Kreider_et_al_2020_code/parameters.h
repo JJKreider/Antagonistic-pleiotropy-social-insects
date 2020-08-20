@@ -25,10 +25,10 @@ const bool workerReplacesQueen = false; // colony inheritance
 const bool sterileWorkers = true; // if workers are sterile they are killed when the queen dies, if they are fecund they lay eggs after the queen died
 
 // genetics
-const int nGene = 1; // number of genes
+const int nGene = 2; // number of genes
 const int nCaste = 2; // caste 0 = queens, caste 1 = workers
 const int nTrait = 2; // survival, fecundity
-const double mutationRate = 1.0e-4; // mutation rate
+const double mutationRate = 0.03; // mutation rate
 
 // partial correlation matrix parameters
 const double alpha = 0.0; // adjacent age classes, effect per trait
