@@ -8,7 +8,7 @@
 
 // general settings
 const int nColony = 1000; // number of colonies
-const int tEnd = 500000; // simulation time
+const int tEnd = 1000000; // simulation time
 const int dataInterval = 100; // data is saved tEnd/dataInterval times
 
 // life history
@@ -28,7 +28,7 @@ const bool sterileWorkers = true; // if workers are sterile they are killed when
 const int nGene = 2; // number of genes
 const int nCaste = 2; // caste 0 = queens, caste 1 = workers
 const int nTrait = 2; // survival, fecundity
-const double mutationRate = 0.03; // mutation rate
+const double mutationRate = 0.005; // mutation rate
 
 // partial correlation matrix parameters
 const double alpha = 0.0; // adjacent age classes, effect per trait
@@ -39,6 +39,6 @@ const double eta = -0.0; // between caste between trait effects
 const int delay = 0; // delay of antagonistic effects
 
 // mutational variance covariance matrix parameters
-const double sigma = 0.2; // mutational effect size over all age classes
+const double sigma = 0.4; // mutational effect size over all age classes
 const double lambda = -0.2; // mutation bias
 #endif
